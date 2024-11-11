@@ -1,17 +1,21 @@
-/*global styles*/
-body{
-    background-color: black;
-    color:aliceblue;
-    font-family:fantasy;
-}
-header{
-   border-bottom: 1px solid;
-    height: 70px;
-    display:flex;
-    justify-content: space-between;
-    padding: 0 100px;
-    text-align: center;
+/*banner styles*/
+body,html{
+    height: 100%;
 }
 .banner{
-    background-image: url(images/banner.jpg);
+    height: 50%;
+    background-image:url(/images/banner.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    text-align: center;
+    font-size:xx-large;
+    position:absolute;
+    top:25%;
+    left:50%;
+    color: white;
 }
