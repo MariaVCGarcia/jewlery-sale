@@ -1,7 +1,21 @@
-/*banner styles*/
+/*gloobal styles*/
 body,html{
     height: 100%;
 }
+body{
+    position: relative;
+    align-items: center;
+    background-color: #0c0c0c;
+}
+/*header*/
+header{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+/*banner styles*/
 .banner{
     height: 50%;
     background-image:url(/images/banner.jpg);
@@ -15,7 +29,109 @@ body,html{
     text-align: center;
     font-size:xx-large;
     position:absolute;
-    top:25%;
+    top:30%;
     left:50%;
     color: white;
+}
+/*nav bar*/
+nav{
+    background-color: black;
+    height: 46.4px;
+    position:sticky;
+}
+.nav-container{
+    padding: 0;
+    margin:0;
+    text-align: left;
+    overflow-x: auto;
+    white-space:nowrap;
+    height: 46.6;
+    color: aliceblue;
+}
+.nav-button{
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.active{
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(88, 87, 87);
+    text-decoration: none;
+    display: inline-block;
+}
+/*main*/
+header {
+    word-wrap: break-word;
+}
+header h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+header h2 {
+    font-size: 18px;
+    width: inherit;
+    background-color: inherit;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+header h3 {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 22px;
+    color: aliceblue;
+}
+h2 {
+    font-size: 18px;
+    background-color: #2c7846;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+h3 {
+    font-size: 16px;
+    text-align: center;
+}
+p:has(+h3) {
+    border-bottom: 2px solid #333;
+}
+p {
+    color: azure;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 16px;
+}
+/*footer*/
+footer p {
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
 }
