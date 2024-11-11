@@ -3,6 +3,16 @@ html, body{
     overflow-x: hidden;
     margin:0;
     padding:0;
-    font-family: cursive;
-    
+    font-family:fantasy;
+}
+header{
+    background-color:rgb(102, 130, 155);
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    text-align: center;
+}
+.banner{
+    background-image: url(images/banner.jpg);
 }
