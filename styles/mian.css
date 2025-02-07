@@ -137,6 +137,7 @@ div.gallary image{
 div.description{
     padding: 16px;
     text-align: center;
+    color: #ffffff;
 }
 *{
     box-sizing: border-box;
