@@ -122,6 +122,46 @@ p {
     margin: 5px auto;
     font-size: 16px;
 }
+
+/*gallary*/
+div.gallary{
+    border:2px solid white;
+}
+div.gallary:hover{
+    border:2px solid grey;
+}
+div.gallary image{
+    width:100%;
+    height: auto;
+}
+div.description{
+    padding: 16px;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.responsive{
+    padding: 0 7px;
+    float:left;
+    width:25%;
+}
+@media only screen and (max-width: 800px){
+    .responsive{
+        width:25%;
+        margin:7px 0;
+    }
+}
+@media only screen and (max-width:600px){
+    .responsive{
+        width:90%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 /*footer*/
 footer p {
     text-align: center;
