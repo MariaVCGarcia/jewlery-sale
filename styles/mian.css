@@ -163,6 +163,28 @@ div.description{
     display: table;
     clear: both;
   }
+
+  /*checkout cart*/
+  .cart .cartlist .name{
+    text-align: left;
+    color: #ffffff;
+  }
+  .cart .cartlist .total{
+    text-align:left;
+    color: #ffffff;
+  }
+  .cart .cartlist .imgage{
+    width: 100px;
+  }
+  .cart .cartlist .item{
+    display:grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap:10px;
+    text-align: center;
+    align-items: center;
+  }
+
+
 /*footer*/
 footer p {
     text-align: center;
